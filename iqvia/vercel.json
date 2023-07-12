@@ -1,13 +1,13 @@
 {
     "builds": [{
-        "src": "iqvia/wsgi.py",
+        "src": "myapp/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.10.9" }
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "iqvia/wsgi.py"
+            "dest": "myapp/wsgi.py"
         }
     ]
 }

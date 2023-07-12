@@ -1,0 +1,50 @@
+{
+  "patientId": "123456789",
+  "name": "John Doe",
+  "dateOfBirth": "1980-01-01",
+  "gender": "Male",
+  "contactNumber": "+1 (123) 456-7890",
+  "address": "123 Main Street, City, State, ZIP",
+  "medicalHistory": {
+    "allergies": ["Penicillin", "Peanuts"],
+    "surgeries": ["Appendectomy", "Knee arthroscopy"],
+    "familyHistory": {
+      "conditions": ["Diabetes", "Hypertension"],
+      "familyMembers": ["Mother", "Father"]
+    }
+  },
+  "conditions": [
+    {
+      "name": "Diabetes",
+      "diagnosisDate": "2010-05-15",
+      "treatments": [
+        {
+          "name": "Insulin therapy",
+          "startDate": "2010-05-20",
+          "dosage": "10 units/day"
+        },
+        {
+          "name": "Dietary changes",
+          "startDate": "2010-05-15"
+        }
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "diagnosisDate": "2015-02-10",
+      "treatments": [
+        {
+          "name": "Antihypertensive medication",
+          "startDate": "2015-02-15",
+          "dosage": "10 mg/day"
+        },
+        {
+          "name": "Exercise regimen",
+          "startDate": "2015-02-15"
+        }
+      ]
+    }
+  ],
+  "lastVisitDate": "2023-05-30",
+  "doctor": "Dr. Jane Smith"
+}

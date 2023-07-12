@@ -1,0 +1,50 @@
+{
+  "patientId": "864209753",
+  "name": "Emily Davis",
+  "dateOfBirth": "1990-09-25",
+  "gender": "Female",
+  "contactNumber": "+1 (555) 246-8102",
+  "address": "987 Pine Street, City, State, ZIP",
+  "medicalHistory": {
+    "allergies": ["Dust mites", "Mold"],
+    "surgeries": ["Tonsillectomy"],
+    "familyHistory": {
+      "conditions": ["Rheumatoid Arthritis", "Colon cancer"],
+      "familyMembers": ["Mother", "Maternal uncle"]
+    }
+  },
+  "conditions": [
+    {
+      "name": "Migraine",
+      "diagnosisDate": "2008-06-15",
+      "treatments": [
+        {
+          "name": "Triptans",
+          "startDate": "2008-06-20",
+          "dosage": "As needed"
+        },
+        {
+          "name": "Identifying triggers",
+          "startDate": "2008-06-15"
+        }
+      ]
+    },
+    {
+      "name": "Endometriosis",
+      "diagnosisDate": "2014-03-10",
+      "treatments": [
+        {
+          "name": "Birth control pills",
+          "startDate": "2014-03-15"
+        },
+        {
+          "name": "Pain medication",
+          "startDate": "2014-03-10",
+          "dosage": "As needed"
+        }
+      ]
+    }
+  ],
+  "lastVisitDate": "2023-05-29",
+  "doctor": "Dr. Sarah Anderson"
+}

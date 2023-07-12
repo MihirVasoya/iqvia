@@ -1,0 +1,49 @@
+{
+  "patientId": "246813579",
+  "name": "Sarah Williams",
+  "dateOfBirth": "1975-12-03",
+  "gender": "Female",
+  "contactNumber": "+1 (555) 123-4567",
+  "address": "789 Elm Street, City, State, ZIP",
+  "medicalHistory": {
+    "allergies": ["Shellfish", "Latex"],
+    "surgeries": ["Hip replacement"],
+    "familyHistory": {
+      "conditions": ["Cancer", "Alzheimer's"],
+      "familyMembers": ["Father", "Maternal aunt"]
+    }
+  },
+  "conditions": [
+    {
+      "name": "Osteoarthritis",
+      "diagnosisDate": "2010-08-18",
+      "treatments": [
+        {
+          "name": "Physical therapy",
+          "startDate": "2010-08-20"
+        },
+        {
+          "name": "Pain medication",
+          "startDate": "2010-08-18",
+          "dosage": "As needed"
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "diagnosisDate": "2015-06-07",
+      "treatments": [
+        {
+          "name": "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+          "startDate": "2015-06-10"
+        },
+        {
+          "name": "Therapy sessions",
+          "startDate": "2015-06-07"
+        }
+      ]
+    }
+  ],
+  "lastVisitDate": "2023-05-28",
+  "doctor": "Dr. Emily Thompson"
+}

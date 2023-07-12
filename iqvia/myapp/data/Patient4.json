@@ -1,0 +1,50 @@
+{
+  "patientId": "135792468",
+  "name": "Michael Johnson",
+  "dateOfBirth": "1985-03-10",
+  "gender": "Male",
+  "contactNumber": "+1 (555) 987-6543",
+  "address": "789 Maple Avenue, City, State, ZIP",
+  "medicalHistory": {
+    "allergies": ["Pollen", "Eggs"],
+    "surgeries": ["ACL reconstruction"],
+    "familyHistory": {
+      "conditions": ["Stroke", "Obesity"],
+      "familyMembers": ["Grandfather", "Brother"]
+    }
+  },
+  "conditions": [
+    {
+      "name": "Type 2 Diabetes",
+      "diagnosisDate": "2010-12-05",
+      "treatments": [
+        {
+          "name": "Oral medication",
+          "startDate": "2010-12-10",
+          "dosage": "1000 mg/day"
+        },
+        {
+          "name": "Lifestyle changes",
+          "startDate": "2010-12-05"
+        }
+      ]
+    },
+    {
+      "name": "High Cholesterol",
+      "diagnosisDate": "2015-08-22",
+      "treatments": [
+        {
+          "name": "Statins",
+          "startDate": "2015-08-25",
+          "dosage": "20 mg/day"
+        },
+        {
+          "name": "Dietary changes",
+          "startDate": "2015-08-22"
+        }
+      ]
+    }
+  ],
+  "lastVisitDate": "2023-06-03",
+  "doctor": "Dr. David Roberts"
+}

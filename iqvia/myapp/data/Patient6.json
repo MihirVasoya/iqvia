@@ -1,0 +1,49 @@
+{
+  "patientId": "987654321",
+  "name": "Michaela Thompson",
+  "dateOfBirth": "1978-06-12",
+  "gender": "Female",
+  "contactNumber": "+1 (555) 123-4567",
+  "address": "123 Elm Street, City, State, ZIP",
+  "medicalHistory": {
+    "allergies": ["Bee stings", "Shellfish"],
+    "surgeries": ["Gallbladder removal"],
+    "familyHistory": {
+      "conditions": ["Heart disease", "Breast cancer"],
+      "familyMembers": ["Mother", "Sister"]
+    }
+  },
+  "conditions": [
+    {
+      "name": "Hypothyroidism",
+      "diagnosisDate": "2002-04-15",
+      "treatments": [
+        {
+          "name": "Synthetic thyroid hormone",
+          "startDate": "2002-04-20",
+          "dosage": "50 mcg/day"
+        },
+        {
+          "name": "Regular blood tests",
+          "startDate": "2002-04-15"
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "diagnosisDate": "2010-07-10",
+      "treatments": [
+        {
+          "name": "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+          "startDate": "2010-07-15"
+        },
+        {
+          "name": "Therapy sessions",
+          "startDate": "2010-07-10"
+        }
+      ]
+    }
+  ],
+  "lastVisitDate": "2023-06-01",
+  "doctor": "Dr. Robert Wilson"
+}

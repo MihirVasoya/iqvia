@@ -1,0 +1,49 @@
+{
+  "patientId": "246813579",
+  "name": "Daniel Wilson",
+  "dateOfBirth": "1982-04-20",
+  "gender": "Male",
+  "contactNumber": "+1 (555) 234-5678",
+  "address": "789 Maple Avenue, City, State, ZIP",
+  "medicalHistory": {
+    "allergies": ["Pollen", "Cats"],
+    "surgeries": ["Knee replacement"],
+    "familyHistory": {
+      "conditions": ["Cancer", "Alzheimer's"],
+      "familyMembers": ["Father", "Maternal aunt"]
+    }
+  },
+  "conditions": [
+    {
+      "name": "Osteoarthritis",
+      "diagnosisDate": "2007-10-15",
+      "treatments": [
+        {
+          "name": "Physical therapy",
+          "startDate": "2007-10-20"
+        },
+        {
+          "name": "Pain medication",
+          "startDate": "2007-10-15",
+          "dosage": "As needed"
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "diagnosisDate": "2014-05-10",
+      "treatments": [
+        {
+          "name": "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+          "startDate": "2014-05-15"
+        },
+        {
+          "name": "Therapy sessions",
+          "startDate": "2014-05-10"
+        }
+      ]
+    }
+  ],
+  "lastVisitDate": "2023-05-31",
+  "doctor": "Dr. Jessica Thompson"
+}

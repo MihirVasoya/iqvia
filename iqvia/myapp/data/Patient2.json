@@ -1,0 +1,45 @@
+{
+  "patientId": "987654321",
+  "name": "Jane Smith",
+  "dateOfBirth": "1992-07-15",
+  "gender": "Female",
+  "contactNumber": "+1 (987) 654-3210",
+  "address": "456 Oak Street, City, State, ZIP",
+  "medicalHistory": {
+    "allergies": ["Sulfa drugs"],
+    "surgeries": ["Gallbladder removal"],
+    "familyHistory": {
+      "conditions": ["Heart disease", "Breast cancer"],
+      "familyMembers": ["Grandmother", "Sister"]
+    }
+  },
+  "conditions": [
+    {
+      "name": "Asthma",
+      "diagnosisDate": "2005-10-20",
+      "treatments": [
+        {
+          "name": "Inhaler",
+          "startDate": "2005-10-20",
+          "dosage": "2 puffs/day"
+        },
+        {
+          "name": "Allergy testing",
+          "startDate": "2005-10-25"
+        }
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "diagnosisDate": "2012-03-12",
+      "treatments": [
+        {
+          "name": "Cognitive Behavioral Therapy",
+          "startDate": "2012-03-15"
+        }
+      ]
+    }
+  ],
+  "lastVisitDate": "2023-06-01",
+  "doctor": "Dr. Mark Johnson"
+}

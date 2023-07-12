@@ -1,0 +1,45 @@
+{
+  "patientId": "123456789",
+  "name": "Olivia Anderson",
+  "dateOfBirth": "1995-11-28",
+  "gender": "Female",
+  "contactNumber": "+1 (555) 987-6543",
+  "address": "456 Oak Street, City, State, ZIP",
+  "medicalHistory": {
+    "allergies": ["Peanuts", "Dogs"],
+    "surgeries": ["Appendectomy"],
+    "familyHistory": {
+      "conditions": ["Diabetes", "Hypertension"],
+      "familyMembers": ["Mother", "Father"]
+    }
+  },
+  "conditions": [
+    {
+      "name": "Asthma",
+      "diagnosisDate": "2003-08-12",
+      "treatments": [
+        {
+          "name": "Inhaler",
+          "startDate": "2003-08-15",
+          "dosage": "2 puffs/day"
+        },
+        {
+          "name": "Allergy testing",
+          "startDate": "2003-08-12"
+        }
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "diagnosisDate": "2012-01-05",
+      "treatments": [
+        {
+          "name": "Cognitive Behavioral Therapy",
+          "startDate": "2012-01-10"
+        }
+      ]
+    }
+  ],
+  "lastVisitDate": "2023-06-03",
+  "doctor": "Dr. Lisa Davis"
+}
